@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: consumer-container  # Имя контейнера.
-        image: timmyalvice8/pyspark-consumer  # Docker-образ для Spark-консьюмера. !!! Заменить на свой !!!
+        image: smv/pyspark-consumer  # Docker-образ для Spark-консьюмера. !!! Заменить на свой !!!
         ports:
         - containerPort: 5001  # Открытие порта 5001 внутри контейнера.
         env:  # Переменные окружения для контейнера.
